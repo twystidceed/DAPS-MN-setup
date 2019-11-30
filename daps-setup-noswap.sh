@@ -187,7 +187,7 @@ rm -rf $ARCHIVE
  stop_daemon
  
  # Deploy binaries to /usr/bin
- cd ~/$FOLDER/$FOLDER2/
+ cd ~/$FOLDER
  sudo rm $NAME2-qt
  sudo cp $NAME2* /usr/bin/
  sudo chmod 755 -R ~/$FOLDER

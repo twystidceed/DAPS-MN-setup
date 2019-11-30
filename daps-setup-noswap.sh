@@ -372,6 +372,6 @@ Contact Twystidceed#4126 on discord if you need additional support
 "
 delay 30
 # Run $MONITOR
-sudo $MONITOR
-
+#sudo $MONITOR
+sudo watch dapscoin-cli getinfo
 # EOF
